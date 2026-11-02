@@ -47,7 +47,7 @@ jobs:
             tools/wav2agb/wav2agb
           key: tools-${{ runner.os }}-${{ hashFiles('tools/*/Makefile', 'tools/**/*.c', 'tools/**/*.cpp', 'tools/**/*.h') }}
 
-            - name: ROM (Emerald)
+      - name: ROM (Emerald)
         env:
           GAME_VERSION: EMERALD
         run: make -j$(nproc) -O all
