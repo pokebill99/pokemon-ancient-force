@@ -246,7 +246,7 @@ LittlerootTown_EventScript_FatMan::
 	end
 
 LittlerootTown_EventScript_Boy::
-	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
+	msgbox AncientForces_Text_Grandfather, MSGBOX_NPC
 	end
 
 LittlerootTown_EventScript_Twin::
@@ -1014,3 +1014,12 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "I have something to show you.\n"
 	.string "Let's go to my LAB.$"
 
+
+@ Ancient Forces: introductory grandfather dialogue (temporary NPC placement).
+AncientForces_Text_Grandfather:
+	.string "Ah! When I was young, I was a\n"
+	.string "formidable POKeMON TRAINER!\p"
+	.string "PROF. ASTER was my best friend.\n"
+	.string "We traveled together for years!\p"
+	.string "But... what was I saying?\n"
+	.string "Oh! ASTER is waiting for you!$"
