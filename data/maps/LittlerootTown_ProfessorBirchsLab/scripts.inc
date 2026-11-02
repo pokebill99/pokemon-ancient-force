@@ -760,18 +760,18 @@ LittlerootTown_ProfessorBirchsLab_Text_CountlessPokemonAwait:
 	.string "and do fieldwork again!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
-	.string "MAY: Oh, wow, {PLAYER}{KUN}!\n"
-	.string "You got a POKéDEX, too!\p"
-	.string "That's great! Just like me!\n"
-	.string "I've got something for you, too!$"
+	.string "GRANDPA: Ah! There you are!\n"
+	.string "I almost forgot why I came!\p"
+	.string "ASTER and I were great friends.\n"
+	.string "These five POKé BALLS are for you!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
-	.string "MAY: It's fun if you can get a lot of\n"
-	.string "POKéMON!\p"
-	.string "I'm going to look all over the place\n"
-	.string "because I want different POKéMON.\p"
-	.string "If I find any cute POKéMON, I'll catch\n"
-	.string "them with POKé BALLS!$"
+	.string "GRANDPA: Make lots of friends on\n"
+	.string "your journey!\p"
+	.string "Oh... what was I saying?\n"
+	.string "Ha ha! Good luck, my dear!\p"
+	.string "ASTER: He really was a remarkable\n"
+	.string "TRAINER, long ago.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
 	.string "Oh? Your BAG's full.$"
@@ -781,18 +781,18 @@ LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
 	.string "for POKéMON next?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_BrendanGotPokedexTooTakeThese:
-	.string "BRENDAN: Huh…\n"
-	.string "So you got a POKéDEX, too.\p"
-	.string "Well then, here.\n"
-	.string "I'll give you these.$"
+	.string "GRANDPA: Wait for me!\n"
+	.string "I nearly forgot your present!\p"
+	.string "ASTER and I go way back.\n"
+	.string "Here, take these five POKé BALLS!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCoolPokemonWithPokeBalls:
-	.string "BRENDAN: You know it's more fun to\n"
-	.string "have a whole bunch of POKéMON.\p"
-	.string "I'm going to explore all over the place\n"
-	.string "to find different POKéMON.\p"
-	.string "If I find any cool POKéMON, you bet\n"
-	.string "I'll try to get them with POKé BALLS.$"
+	.string "GRANDPA: Every new POKéMON can\n"
+	.string "become a lifelong friend!\p"
+	.string "Now, what did I come here for?\n"
+	.string "Oh, right! Ha ha ha!\p"
+	.string "ASTER: He was a great TRAINER,\n"
+	.string "before the accident.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_HeyYourBagsFull:
 	.string "Hey, your BAG's full.$"
