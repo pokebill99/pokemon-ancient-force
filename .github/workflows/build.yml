@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - upcoming
+      - test01
   pull_request:
 
 env:
