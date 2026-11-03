@@ -953,25 +953,22 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Go on, go get them, honey!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
-	.string "The power of science is staggering!$"
+    .string "Con il PC puoi conservare strumenti\n"
+    .string "e POKéMON. La scienza è incredibile!$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-	.string "PROF. BIRCH spends days in his LAB\n"
-	.string "studying, then he'll suddenly go out in\l"
-	.string "the wild to do more research…\p"
-	.string "When does PROF. BIRCH spend time\n"
-	.string "at home?$"
+    .string "Il PROF. ASTER studia le migrazioni\n"
+    .string "dei POKéMON nel suo laboratorio.\p"
+    .string "A volte parte per osservare la\n"
+    .string "natura di Elyndra.$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
-	.string "Um, um, um!\p"
-	.string "If you go outside and go in the grass,\n"
-	.string "wild POKéMON will jump out!$"
+    .string "Aspetta! Nell'erba alta vivono\n"
+    .string "POKéMON selvatici!$"
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
-	.string "It's dangerous if you don't have\n"
-	.string "your own POKéMON.$"
+    .string "Non andare oltre senza\n"
+    .string "un POKéMON che ti protegga!$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "Um, hi!\p"
@@ -987,21 +984,21 @@ LittlerootTown_Text_YouSavedBirch:
 	.string "I'm so glad!$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
-	.string "Are you going to catch POKéMON?\n"
-	.string "Good luck!$"
+    .string "Parti per un viaggio?\n"
+    .string "Buona fortuna con i POKéMON!$"
 
 LittlerootTown_Text_TownSign:
-	.string "LITTLEROOT TOWN\n"
-	.string "“A town that can't be shaded any hue.”$"
+    .string "BORGO RADURA\n"
+    .string "Un piccolo borgo tra i boschi.$"
 
 LittlerootTown_Text_ProfBirchsLab:
-	.string "PROF. BIRCH'S POKéMON LAB$"
+    .string "LABORATORIO DEL PROF. ASTER$"
 
 LittlerootTown_Text_PlayersHouse:
-	.string "{PLAYER}'s HOUSE$"
+    .string "CASA DI {PLAYER}$"
 
 LittlerootTown_Text_ProfBirchsHouse:
-	.string "PROF. BIRCH'S HOUSE$"
+    .string "CASA DEL PROF. ASTER$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "PROF. BIRCH: Well, well, {PLAYER}{KUN}!\n"
@@ -1017,9 +1014,29 @@ LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 
 @ Ancient Forces: introductory grandfather dialogue (temporary NPC placement).
 AncientForces_Text_Grandfather:
-	.string "Ah! When I was young, I was a\n"
-	.string "formidable POKeMON TRAINER!\p"
-	.string "PROF. ASTER was my best friend.\n"
-	.string "We traveled together for years!\p"
-	.string "But... what was I saying?\n"
-	.string "Oh! ASTER is waiting for you!$"
+    .string "Ah, alla tua età ero un Allenatore\n"
+    .string "davvero formidabile!\p"
+    .string "Io e ASTER eravamo grandi amici.\n"
+    .string "Abbiamo viaggiato per anni!\p"
+    .string "Ma... di cosa parlavo?\p"
+    .string "Ah, sì! ASTER ti aspetta!$"
+
+
+@ Ancient Forces - Borgo Radura: playable monument and bridge story hooks.
+AncientForces_EventScript_Crystals::
+ msgbox AncientForces_Text_Crystals, MSGBOX_NPC
+ end
+
+AncientForces_EventScript_BridgeWorker::
+ msgbox AncientForces_Text_BridgeWorker, MSGBOX_NPC
+ end
+
+AncientForces_Text_Crystals:
+ .string "Due cristalli brillano debolmente\n"
+ .string "alla luce del sole.\p"
+ .string "Sembrano molto antichi.$"
+
+AncientForces_Text_BridgeWorker:
+ .string "Il ponte a ovest e' crollato!\n"
+ .string "Stiamo lavorando per ripararlo.\p"
+ .string "Per ora non si puo' passare.$"
