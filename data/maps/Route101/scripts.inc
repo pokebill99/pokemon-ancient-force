@@ -257,42 +257,45 @@ Route101_Movement_BirchApproachPlayer:
 	step_end
 
 Route101_Text_HelpMe:
-	.string "H-help me!$"
+    .string "Aiuto! Aiutatemi!$"
 
 Route101_Text_PleaseHelp:
-	.string "Hello! You over there!\n"
-	.string "Please! Help!\p"
-	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+    .string "Ehi, tu! Aiutami, presto!\p"
+    .string "Nella mia BORSA c'è una POKé BALL!$"
 
 Route101_Text_DontLeaveMe:
-	.string "Wh-Where are you going?!\n"
-	.string "Don't leave me like this!$"
+    .string "Dove vai?! Non lasciarmi qui!$"
 
 Route101_Text_YouSavedMe:
-	.string "PROF. BIRCH: Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+    .string "PROF. ASTER: Fiuu... Grazie!\p"
+    .string "Studiavo i POKéMON nell'erba\n"
+    .string "quando sono stato assalito.\p"
+    .string "Tu devi essere {PLAYER}!\p"
+    .string "Vieni al laboratorio, dobbiamo\n"
+    .string "parlare con calma.$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
-	.string "If POKéMON get tired, take them to\n"
-	.string "a POKéMON CENTER.\p"
-	.string "There's a POKéMON CENTER in OLDALE\n"
-	.string "TOWN right close by.$"
+    .string "Se i tuoi POKéMON sono stanchi,\n"
+    .string "portali in un CENTRO POKéMON.$"
 
 Route101_Text_WildPokemonInTallGrass:
-	.string "Wild POKéMON will jump out at you in\n"
-	.string "tall grass.\p"
-	.string "If you want to catch POKéMON, you have\n"
-	.string "to go into the tall grass and search.$"
+    .string "I POKéMON selvatici si nascondono\n"
+    .string "nell'erba alta.\p"
+    .string "Per catturarli, cerca tra i fili\n"
+    .string "d'erba e usa una POKé BALL!$"
 
 Route101_Text_RouteSign:
-	.string "ROUTE 101\n"
-	.string "{UP_ARROW} OLDALE TOWN$"
+    .string "PERCORSO 501\n"
+    .string "{UP_ARROW} VERSO NORD$"
 
+
+
+@ Ancient Forces - Percorso 501: observation-station foreshadowing.
+AncientForces_EventScript_Observation::
+ msgbox AncientForces_Text_Observation, MSGBOX_NPC
+ end
+
+AncientForces_Text_Observation:
+ .string "La stazione di osservazione\n"
+ .string "studia le migrazioni dei POKeMON.\p"
+ .string "Il Professor Aster viene spesso qui.$"
